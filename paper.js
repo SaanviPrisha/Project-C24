@@ -17,7 +17,7 @@ class Paper{
     display(){
         ellipseMode(RADIUS)
         push();
-        translate(this.body.position.x,his.body.position.y)
+        translate(this.body.position.x,this.body.position.y)
         rotate(this.body.angle)
         ellipse(0,0, 20, 20);
         pop();
